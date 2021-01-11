@@ -2,11 +2,11 @@
 
 ## Installation
 
-### Running with python (Windows)
+### Running with python
 
 1. Have python 3.5 or 3.6 installed
 
-2. Create a virtual environment with the command:
+2. Create a virtual environment with the command (**be sure to use python 3.5 or 3.6 to do this!**):
 
 ```powershell
 python -m venv venv
@@ -24,6 +24,12 @@ Windows command prompt:
 
 ```console
 venv\Scripts\activate.bat
+```
+
+Mac terminal
+
+```bash
+source venv\bin\activate
 ```
 
 4. (Assuming you have the virtual environment activated for the rest of the tutorial) install PyQt5 and FBS using the command below
